@@ -2,8 +2,8 @@ object CountOdds extends App {
 
   def count(input: Int) : Int =
     input match {
-    case x if x % 2 == 0 => x /2
-    case z => (z-1) / 2
+    case even if even % 2 == 0 => even /2
+    case odd => (odd-1) / 2
   }
 
 }
